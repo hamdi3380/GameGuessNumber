@@ -3,7 +3,7 @@ function guessNumber(){
     console.log(randomNum);
     
     var guess;
-    guess = prompt("Please enter a number between and 100");
+    guess = prompt("Please enter a number between 0 and 100");
     console.log("your guess is: " + guess);
     
     if( guess < randomNum) {
